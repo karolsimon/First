@@ -7,12 +7,88 @@
     <meta name="keywords" content="movies, favourite, cinema"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="author" content="Karol">
+    <style>
+        #container
+        {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #logo
+        {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        #nav
+        {
+            float: left; /*
+                        This rule must be added to the CSS of a <div>
+                        if the neighboring <div> should appear next to it instead of below. 
+                        */
+            background-color: lightgray;
+            width: 100px;
+            min-height: 620px;
+            padding: 10px;
+        }
+        #content
+        {
+            float: left;
+            padding: 20px;
+            width: 600px;
+        }
+        #ad
+        {
+            float: right;
+            width: 150px;
+            min-height: 620px;
+            background-color: lightgray;
+        }
+        #footer
+       {
+            clear:both; /*
+                        This can also be added to a div directly: <div style="clear:both;"></div>
+                        So can be any style including float: left;
+                        */
+            background-color: red;
+            color: blue;
+            text-align: center;
+            padding: 20px;
+       }
+    </style>
 </head>
 <body>
-    <h1>best movies</h1>
-    comedy: <br/><a href="https://en.wikipedia.org/wiki/Forrest_Gump" target="_blank" title="check it out" > forrest gump (1994)</a>
-    <br/><br/>
-    <a href="https://apple.com/fr" target="_blank" title="apple.com"><img src="images/chasing-the-northern-lights-10-best-places-to-witness-the-aurora-borealis-1024x683.webp"/></a>
+    <div id="container">
+        <div id="logo">
+            <h1>best movies</h1>
+        </div>
+        <div id="nav">
+            comedy <br/><a href="https://en.wikipedia.org/wiki/Forrest_Gump" target="_blank" title="check it out" > forrest gump (1994)</a>
+            <br/><br/>
+            thriller <br/><a href="https://www.youtube.com/watch?v=KzaUgmzfjnA" target="_blank" title="check it out" >wolf creek 2 (2013)</a>
+            <br/><br/>
+            podcast<br/><a href="https://www.youtube.com/watch?v=jP1bDabn1Uk" target="_blank" title="check it out" >piate nie zabijaj</a>
+            <br/><br/>
+        </div>
+        <div id="content">
+            <h2>Cała piękna. Maryja
+                Co chcemy powiedzieć, kiedy mówimy o Maryi,<br/>
+                że jest cała piękna? Skąd czerpiemy to przekonanie?</br>
+                Czy nie jest to jedynie nasza pobożna insynuacja,</br>
+                wymysł naszej maryjnej religijności,</br>
+                wytwór ckliwego sentymentalizmu?</br>
+                Książka ks. Krzysztofa Wonsa.</h2>
+            <a href="https://apple.com/fr" target="_blank" title="apple.com"><img src="images/chasing-the-northern-lights-10-best-places-to-witness-the-aurora-borealis-1024x683.webp" width="300px" height="300px"/></a>
+        </div>
+        <div id="ad">
+            <img src="images/Screenshot 2024-12-22 at 12.31.43.png" width="100px" height="300px"/>
+        </div>
+        <div id="footer">
+            best movies &copy; all rigths reseved
+        </div>
+    </div>
+    </body>
 
 </body>
 </html>
