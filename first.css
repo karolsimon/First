@@ -56,6 +56,11 @@ body
     height: 142px;
     background-color: #3095d3;
     float: left;
+    text-align: center;
+}
+.tile1:hover
+{
+    background-color: #2084c2;
 }
 .tile2
 {
@@ -64,6 +69,11 @@ body
     height: 142px;
     background-color: #666666;
     float: left;
+    text-align: center;
+}
+.tile2:hover
+{
+    background-attachment: #555555;
 }
 .tile3
 {
@@ -72,20 +82,34 @@ body
     height: 142px;
     background-color: #93c748;
     float: left;
+    text-align: center;
+}
+.tile3:hover
+{
+    background-color: #82b637;
 }
 .tile4
 {
     margin: 10px;
-    width: 480px;
-    height: 142px;
+    width: 420px;
+    height: 82px;
     background-color: #ee5a32;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px;
+}
+.tile4:hover
+{
+    background-color: #dd4a21;
 }
 .tile5
 {
     margin: 10px;
-    width: 480px;
-    height: 304px;
+    width: 420px;
+    height: 234px;
     background-color: #666666;
+    text-align: justify;
+    padding: 30px;
 }
 .yt
 {
@@ -95,6 +119,10 @@ body
     background-color: #FF0000;
     float: left;
 }
+.yt:hover
+{
+    background-color: #EE0000;
+}
 .fb
 {
     margin: 10px;
@@ -102,6 +130,10 @@ body
     height: 142px;
     background-color: #1877F2;
     float: left;
+}
+.fb:hover
+{
+    background-color: #1766E1;
 }
 .ig
 {
@@ -115,11 +147,27 @@ body
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     float: left;
 }
+.ig:hover
+{
+    background: #e58a2f;
+    background: -moz-linear-gradient(45deg, #e58a2f 0%, #d45d38 25%, #c4213e 50%, #b11d58 75%, #9b136f 100%);
+    background: -webkit-linear-gradient(45deg, #e58a2f 0%,#d45d38 25%,#c4213e 50%,#b11d58 75%,#9b136f 100%);
+    background: linear-gradient(45deg, #e58a2f 0%,#d45d38 25%,#c4213e 50%,#b11d58 75%,#9b136f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e58a2f', endColorstr='#9b136f', GradientType=1);
+}
 .x
 {
     margin: 10px;
     width: 105px;
     height: 142px;
     background-color: #000000;
+    font-size: 76px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: left;
+}
+.x:hover
+{
+    background-color: #111111;
 }
