@@ -106,7 +106,7 @@ body
 {
     margin: 10px;
     width: 420px;
-    height: 234px;
+    height: 244px;
     background-color: #666666;
     text-align: justify;
     padding: 30px;
@@ -170,4 +170,12 @@ body
 .x:hover
 {
     background-color: #111111;
+}
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
 }
