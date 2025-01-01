@@ -1,0 +1,15 @@
+#logo3
+{
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color:#771d5b;
+    background-color: yellow;
+    width: 100%; /* Set the width of the inner div */
+    height: 100px; /* Set the height of the inner div */
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+    border-bottom: 2px solid #33402a;
+    text-shadow: 2px 2px 0 /*blur*/ #576043, -2px 2px 0 /*blur*/ #576043, -2px -2px 0 /*blur*/ #576043, 2px -2px 0 /*blur*/ #576043;
+}
